@@ -11,7 +11,7 @@
 
 ## 📌 Project Overview
 
-This is the **Sub Control Board** of the Autonomous Wheeled Vehicle project, designed to act as a dedicated **Ethernet ↔ SBUS communication gateway**. While the [Main Control Board](../AV-Main-Control-Board/README.md) uses a full STM32 Nucleo F446RE, this sub PCB uses the compact **Seeed XIAO SAMD21** (ARM Cortex-M0+) to handle a focused task: receiving commands over **W5500 Ethernet (TCP/IP)** and forwarding them as an **inverted SBUS UART signal** (via 74LS04N hex inverter) to RC/motor control receivers.
+This is the **Sub Control Board** of the Autonomous Wheeled Vehicle project, designed to act as a dedicated **Ethernet ↔ SBUS communication gateway**. A full STM32 Nucleo F446RE, this sub PCB uses the compact **Seeed XIAO SAMD21** (ARM Cortex-M0+) to handle a focused task: receiving commands over **W5500 Ethernet (TCP/IP)** and forwarding them as an **inverted SBUS UART signal** (via 74LS04N hex inverter) to RC/motor control receivers.
 
 The board features:
 - **Seeed XIAO SAMD21** as the lightweight edge MCU
